@@ -1,0 +1,12 @@
+{
+    "buildCommand": "cd movie-app && npm run build",
+    "outputDirectory": "movie-app/dist",
+    "installCommand": "cd movie-app && npm install",
+    "framework": "vite",
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
