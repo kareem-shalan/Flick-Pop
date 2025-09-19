@@ -3,8 +3,8 @@ import { useEffect, useMemo, useState } from "react";
 import { toast } from "react-hot-toast";
 
 
-const apiKey = import.meta.env.VITE_API_KEY;
-console.log("API Key loaded:", import.meta.env.VITE_API_KEY); // Add this line temporarily
+const apiKey = import.meta.env.VITE_API_KEY || "7710c2c0a93322663cff2d25b337b96d";
+console.log("API Key loaded:", import.meta.env.VITE_API_KEY || "7710c2c0a93322663cff2d25b337b96d"); // Add this line temporarily
 
 export default function InfoPage() {
   const imgBasePoster = "https://image.tmdb.org/t/p/w500";

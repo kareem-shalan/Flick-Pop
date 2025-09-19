@@ -4,7 +4,7 @@ import MovieCard from "../components/MovieCard";
 import Pagination from "../components/Pagination";
 import Loading from "../components/Loading";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY || "7710c2c0a93322663cff2d25b337b96d";
 
 export default function SearchResults() {
   const [results, setResults] = useState([]);
