@@ -4,7 +4,7 @@ A responsive and feature-rich movie discovery application built with React and V
 
 ## 🌐 Live Demo
 
-**Website**: [https://movie-app-website1.netlify.app/](https://movie-app-website1.netlify.app/)  
+**Website**: [https://movie-app-website1.netlify.app/](https://flick-pop.vercel.app/)  
 
 ## 📱 Screenshots
 ![FullView](./src//assets/FullView.png)  
